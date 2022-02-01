@@ -32,13 +32,20 @@ li {
 }
 
 .second {
-    height: 200x;
+    height: 200px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 8px;
     margin: 0px;
     font-weight: bolder;
+}
+
+.pics {
+    display: flex;
+    justify-content: center;
+    gap: 18px;
 }
 
 .herotext {
@@ -53,19 +60,39 @@ li {
     align-items: center;
     height: 200px;
     font-size: 36px;    
-    
     color: #1f2937;
     background-color: #e5e7eb;
 }
 
+.container4 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    height: 200px;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    
+
+}
+
 .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 100px;
     background: #1F2937;
     font-size: 64, #f9faf8;
     color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     padding: 8px;
     margin: 0px;
+   
+}
+.backgroundcolor {
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+    padding: 36px;
+    width: 75%;
 }
