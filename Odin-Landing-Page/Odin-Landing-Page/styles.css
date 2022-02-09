@@ -5,20 +5,28 @@ flex-direction: column;
 
 }
 
-.header {
-    height: 300px;
+.container1 {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
     background: #1F2937;
     font-size: 64, #f9faf8;
     color: white;
+    flex-wrap: wrap;
+    gap: 8px;
+
+}
+
+.header {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     padding: 8px;
-    margin: 0px;
-    
+
 }
 
-ul {
+ul, li {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -27,12 +35,33 @@ ul {
     list-style-type: none;
 }
 
-li {
+a {
     text-decoration: none;
+    color: white;
+}
+
+.herosection {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.herotext {
+    flex-direction: column;
+}
+
+.firstpic {
+    display: flex;
+    max-width: 50%;
+    max-height: 50%;
+
 }
 
 .second {
-    height: 200px;
+    height: 500px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -42,46 +71,90 @@ li {
     font-weight: bolder;
 }
 
-.pics {
-    display: flex;
-    justify-content: center;
-    gap: 18px;
-}
-
 .herotext {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.container3 {
+.container {
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
+    gap: 100px;
+    max-width: 200px;
+}
+
+.text {
+text-align: center;
+}
+
+.secondpics {
+    width: 200px;
     height: 200px;
+}
+
+
+.container3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
     font-size: 36px;    
     color: #1f2937;
     background-color: #e5e7eb;
 }
 
+.quote, .author {
+
+display: flex;
+justify-content: center;
+max-width: 700px;
+} 
+
+.quote {
+font-style: italic;
+justify-content: center;
+
+}
+
+.author {
+ font-weight: bold;
+ font-size: 24px;
+ justify-content: flex-end;
+
+}
+
 .container4 {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    height: 200px;
+    flex-direction: row;
+    height: 300px;
     font-size: 36px;
     font-weight: bolder;
     color: #1f2937;
+   
 }
 
 .footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100px;
+    height: 200px;
     background: #1F2937;
     font-size: 64, #f9faf8;
     color: white;
     padding: 8px;
     margin: 0px;
+   
+}
+.backgroundcolor {
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+    padding: 36px;
+    width: 75%;
 }
