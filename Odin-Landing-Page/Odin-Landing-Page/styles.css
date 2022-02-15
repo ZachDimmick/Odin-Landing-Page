@@ -1,8 +1,7 @@
 body {
-font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-display: flex;
-flex-direction: column;
-
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    flex-direction: column;
 }
 
 .container1 {
@@ -14,7 +13,6 @@ flex-direction: column;
     color: white;
     flex-wrap: wrap;
     gap: 8px;
-
 }
 
 .header {
@@ -23,7 +21,8 @@ flex-direction: column;
     justify-content: space-between;
     align-items: center;
     padding: 8px;
-
+    font-size: 24px;
+    color: #F9FAF8;
 }
 
 ul, li {
@@ -33,6 +32,8 @@ ul, li {
     padding: 8px;
     margin: 0px;
     list-style-type: none;
+    font-size: 18px;
+    color: #e5e7eb;
 }
 
 a {
@@ -45,30 +46,62 @@ a {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 20px;
-    padding: 20px;
+    padding: 50px;
 }
 
 .herotext {
     flex-direction: column;
+    max-width: 500px;
+    max-height: 500px;
+
+}
+
+.awesome {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    padding: 8px;
+}
+
+.subtext {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 8px;
+
 }
 
 .firstpic {
     display: flex;
-    max-width: 50%;
-    max-height: 50%;
+    max-width: 500px;
+    max-height: 500px;
+    margin: 20px;
+}
 
+.herobutton {
+    display: flex;
+    margin-right: auto;
+    background-color: #3882f6;
+    border-radius: 6px;
+    color: white;
+    font-size: 18px;
+    padding: 8px 30px;
+    border-style: none;
 }
 
 .second {
-    height: 500px;
+    height: 450px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 8px;
-    margin: 0px;
     font-weight: bolder;
+}
+
+.title {
+    font-size: 36px; 
+    font-weight: bolder;
+    color:  #1f2937;
+    padding: 40px;
 }
 
 .herotext {
@@ -87,14 +120,15 @@ a {
 }
 
 .text {
-text-align: center;
+    text-align: center;
+    font-size: 14px;
+    color: #828588;
 }
 
 .secondpics {
     width: 200px;
     height: 200px;
 }
-
 
 .container3 {
     display: flex;
@@ -108,53 +142,79 @@ text-align: center;
 }
 
 .quote, .author {
-
-display: flex;
-justify-content: center;
-max-width: 700px;
+    display: flex;
+    justify-content: center;
+    max-width: 700px;
 } 
 
 .quote {
-font-style: italic;
-justify-content: center;
-
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    justify-content: center;
+    color: #1f2937;
 }
 
 .author {
- font-weight: bold;
- font-size: 24px;
- justify-content: flex-end;
+    font-weight: bold;
+    font-size: 24px;
+    justify-content: flex-end;
 
 }
 
 .container4 {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.backgroundcolor {
+    
+    display: flex;
+    flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    flex-direction: row;
-    height: 300px;
-    font-size: 36px;
-    font-weight: bolder;
-    color: #1f2937;
-   
+    background-color: blue;
+    border-radius:1em;
+    padding: 36px;
+    width: 75%;
+}
+
+.actiontext{
+    display: flex;
+
+    color: #f9faf8;
+}
+
+.call {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.click {
+    font-weight: lighter;
+    font-size: 18px;
+}
+
+.button2{
+    display: flex;
+    background-color: blue;
+    font-size: 16px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    padding: 8px 30px;
 }
 
 .footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 200px;
+    height: 100px;
     background: #1F2937;
     font-size: 64, #f9faf8;
     color: white;
     padding: 8px;
     margin: 0px;
-   
-}
-.backgroundcolor {
-    display: flex;
-    justify-content: center;
-    background-color: blue;
-    padding: 36px;
-    width: 75%;
 }
