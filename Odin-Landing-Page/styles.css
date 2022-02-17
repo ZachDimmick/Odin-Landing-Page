@@ -1,68 +1,113 @@
 body {
-font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-display: flex;
-flex-direction: column;
-
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0;
+    margin: 0;
+    text-align: center;
 }
 
-.container1 {
-    height: 300px;
+.bigcontainer {    
+    display: flex;
+    flex-direction: column;
+}
+
+.first {
+    height: 400px;
     display: flex;
     flex-direction: column;
     background: #1F2937;
-    font-size: 64, #f9faf8;
-    color: white;
-  
+    font-size: 64;
+    color: #f9faf8;
+    gap: 8px;
+    padding: 20px 20px 100px;
 }
 
 .header {
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-align-items: center;
-padding: 8px;
-}
-
-.heroandpic {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-
+    padding: 8px;
+    font-size: 24px;
+    color: #F9FAF8;
 }
 
-.headerpic {
-}
-
-.hero {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-ul {
+ul, li {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 8px;
     margin: 0px;
     list-style-type: none;
+    font-size: 18px;
+    color: #e5e7eb;
 }
 
-li {
+a {
     text-decoration: none;
+    color: white;
+}
+
+.herosection {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.herotext {
+    flex-direction: column;
+    max-width: 500px;
+    max-height: 500px;
+    text-align: left;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    margin: 0;
+}
+
+.herotext p {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-top: 8px;
+
+}
+
+.firstpic {
+    display: flex;
+    max-width: 500px;
+    max-height: 500px;
+    margin: 20px;
+}
+
+.herobutton {
+    display: flex;
+    margin-right: auto;
+    background-color: #3882f6;
+    border-radius: 6px;
+    color: white;
+    font-size: 18px;
+    padding: 8px 30px;
+    border-style: none;
 }
 
 .second {
-    height: 300px;
+    height: 450px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 8px;
-    margin: 0px;
     font-weight: bolder;
+}
+
+.title {
+    font-size: 36px; 
+    font-weight: bolder;
+    color:  #1f2937;
+    padding: 40px;
 }
 
 .herotext {
@@ -76,39 +121,96 @@ li {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 8px;
+    gap: 80px;
+    max-width: 200px;
 }
 
-img {
-    width: 100px;
-    height: 100px;
-  }
-
-.info {
-    max-width: 100px;
-   
+.text {
+    text-align: center;
+    font-size: 14px;
+    color: #828588;
 }
 
-.container3 {
+.secondpics {
+    width: 180px;
+    height: 180px;
+}
+
+.third {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 200px;
+    height: 300px;
     font-size: 36px;    
     color: #1f2937;
     background-color: #e5e7eb;
 }
 
-.container4 {
+.quote, .author {
     display: flex;
+    justify-content: center;
+    max-width: 700px;
+} 
+
+.quote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    justify-content: center;
+    color: #1f2937;
+}
+
+.author {
+    font-weight: bold;
+    font-size: 24px;
+    justify-content: flex-end;
+
+}
+
+.fourth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.backgroundcolor {
+    
+    display: flex;
+    flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    flex-direction: row;
-    height: 200px;
-    font-size: 36px;
-    font-weight: bolder;
-    color: #1f2937;
-    
+    background-color: blue;
+    border-radius:1em;
+    padding: 36px;
+    width: 60%;
+}
+
+.actiontext{
+    display: flex;
+
+    color: #f9faf8;
+}
+
+.call {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.click {
+    font-weight: lighter;
+    font-size: 18px;
+}
+
+.button2{
+    display: flex;
+    background-color: blue;
+    font-size: 16px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    padding: 8px 30px;
 }
 
 .footer {
@@ -121,12 +223,4 @@ img {
     color: white;
     padding: 8px;
     margin: 0px;
-   
-}
-.backgroundcolor {
-    display: flex;
-    justify-content: center;
-    background-color: blue;
-    padding: 36px;
-    width: 75%;
 }
